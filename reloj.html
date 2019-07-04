@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proyecto con Javascript</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link id="theme" rel="stylesheet" href="css/theme-green.css">
+
+    <!-- Jqery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   
+    <!-- Moment js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/locale/es.js"></script>
+    <!-- Momentj js -->
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+    
+    <div class="selector-theme">
+        <div id="to-green"></div>
+        <div id="to-red"></div>
+        <div id="to-blue"></div>
+    </div>
+
+    <section class="global">
+        <header> 
+            <!-- Cabecera -->
+            <div class="logo">
+                <h1>
+                    PROYECTO JS
+                </h1>
+            </div>
+            <div class="clearfix"></div>
+
+            <nav id="menu">
+                <ul >
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="reloj.html">Reloj</a></li>
+                    <li><a href="about-me.html">Sobre mí</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Contenido  -->
+        <div id="content">
+            <div id="box">
+                <!-- Cargar un reloj-->
+               <div id="reloj">
+
+               </div>
+             </div>
+        </div>
+
+        <aside id="sidebar">
+            <div id="about">
+                <h4><span></span>¿Quién soy?</h4>
+                <img src="img/caracol.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus 
+                    earum omnis maiores quam labore ullam facilis dignissimos sint alias numquam nesciunt suscipit 
+                    excepturi corrupti, </p>
+            </div>
+
+            <div id="login">
+                <h4><span>Identificate</span></h4>
+
+                <form action="">
+                    <label for="name">Nombre</label>
+                    <input type="text" name = "name" id="txt-name">
+
+                    <label for="correo">Correo</label>
+                    <input type="email" name = "correo" id="txt-email">
+
+                    <label for="contra">Contraseña</label>
+                    <input type="password" name = "contra" id="txt-pass">
+
+                    <input type="submit" value="Entrar">
+                </form>
+            </div>
+        </aside>
+
+        <div class="clearfix"></div>
+    </section>
+
+    <footer>
+        Máster de Javascript 
+
+        <a href="#" class="subir">Ir arriba</a>
+    </footer>
+
+    <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
+    <!-- <script src="js/jquery-ui.min.js"></script> -->
+
+</body>
+</html>
